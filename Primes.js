@@ -1,3 +1,5 @@
+// REf:http://v8-io12.appspot.com/#16
+
 function Primes() {
   this.prime_count = 0;
   this.primes = new Array(25000);
