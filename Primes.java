@@ -1,3 +1,6 @@
+
+// based on the c++ version from :http://v8-io12.appspot.com/#16
+
 public class Primes {
 
   private volatile  static int prime_count;
