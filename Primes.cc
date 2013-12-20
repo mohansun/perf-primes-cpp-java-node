@@ -1,4 +1,6 @@
 #include <stdio.h>
+
+// REf:http://v8-io12.appspot.com/#16
 class Primes {
  public:
   int getPrimeCount() const { return prime_count; }
