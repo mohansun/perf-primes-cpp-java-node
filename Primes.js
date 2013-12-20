@@ -26,7 +26,7 @@ function main() {
     }
     c++;
   }
-  console.log(p.getPrime(p.getPrimeCount()-1));
+  print(p.getPrime(p.getPrimeCount()-1));
 }
 
 main();
