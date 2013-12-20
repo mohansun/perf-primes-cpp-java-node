@@ -35,6 +35,18 @@ real  0m18.659s
 user  0m18.582s
 sys 0m0.115s
 
+
+#--- v8 shell ---
+Lotus:v8-master mohan$ time ./run_shell.sh Primes.js 
+287107
+
+real	0m9.191s
+user	0m9.156s
+sys	0m0.026s
+Lotus:v8-master mohan$ cat run_shell.sh 
+./out/native/shell $1
+
+===================
 #--- OS ---
 Lotus:slides mohan$ uname -a
 Darwin Lotus 10.8.0 Darwin Kernel Version 10.8.0: Tue Jun  7 16:33:36 PDT 2011; root:xnu-1504.15.3~1/RELEASE_I386 i386
@@ -48,6 +60,10 @@ Java HotSpot(TM) 64-Bit Server VM (build 20.65-b04-462, mixed mode)
 #--- node version ---
 Lotus:slides mohan$ node --version
 v0.10.24
+
+#--- v8 shell version ---
+V8 version 3.24.7 (candidate) [sample shell]
+
 
 #--- g++ verions ---
 
