@@ -1,5 +1,7 @@
 Comparing speed of Primes (Google) for C++, Java and Node
 
+# REF:http://v8-io12.appspot.com/#16
+
 #--- cc compile
 
 g++ -O3 Primes.cc -o Primes; ./Primes
