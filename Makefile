@@ -1,5 +1,6 @@
-# usage: make Primes_cc  --> make cc
-#        make Primes_java 
+# usage: make all 
+# oR
+#        make clean
 
 #--------------------------------
 Objects = Primes
