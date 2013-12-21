@@ -1,5 +1,5 @@
 # usage: make all 
-# oR
+# 
 #        make clean
 
 #--------------------------------
